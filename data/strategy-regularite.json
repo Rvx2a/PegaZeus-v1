@@ -1,0 +1,17 @@
+{
+    "name": "Stratégie Régularité Plus",
+    "description": "Stratégie basée sur la régularité des chevaux avec filtres sur les cotes et les types de courses",
+    "bet_type": "Couplé",
+    "horse_selection": "Deux premiers",
+    "algorithms": ["Algo_Regularite_v1"],
+    "conditions": {
+        "min_odds": 2.0,
+        "max_odds": 15.0,
+        "confidence_threshold": 75
+    },
+    "filters": {
+        "race_type": "Plat",
+        "min_distance": 1600,
+        "max_distance": 2400
+    }
+}
